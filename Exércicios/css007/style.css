@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+body {
+    background-image: linear-gradient(to right, blue, red);
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font: normal lighter 20px Arial, Times, sans-serif;
+}
+
+h1 {
+    font: normal bolder 50px Arial, Times, sans-serif;
+    color:green;
+}
+
+

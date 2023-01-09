@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <hr />
+    <p>Abra essa imagem em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho de seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" />
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png" />
+        <img src="imagens/grande.png" alt="Imagem flexível" />
+    </picture>
+
+    <h1>Reprodução de Áudios</h1>
+    <hr />
+    <p>
+        Agora, vamos começar a colocar áudio no site!<br />
+        Que louco, mas vamos nessa!!!
+    </p>
+    <audio controls>
+        <source src="midia/silence.mp3" type="audio/mp3" />
+        <source src="midia/silence.ogg" type="audio/ogg" />
+    </audio>
+    <br />
+    <video width="500" height="500" controls poster="imagens/capa.png">
+        <source src="midia/movie.mp4" type="video/mp4" />
+        <source src="midia/movie.ogg" type="video/ogg" />
+        <source src="midia/movie.webm" type="video/webm" />
+        <p>Seu navegador não tem compatibilidade, instale o vídeo <a href="midia/movie.mp4">aqui</a> </p>
+    </video>
+    <br />
+    <h1>Inserindo vídeos do youtube</h1>
+    <hr />
+    <p>É possível inserir vídeos do youtube também!!</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Vfo_kjzYPeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+
+</html>

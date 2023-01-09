@@ -1,0 +1,42 @@
+@charset "UTF-8'";
+
+@font-face {
+    font-family:'Love';
+    src: url('fonts/love.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+main{
+    font-family: 'Love', serif;
+}
+
+body{
+    text-align:justify;
+    padding: 10px;
+    background-color:white;
+}
+
+p{
+    text-indent: 30px;
+}
+
+h2{
+    color:yellow;
+}
+
+h1#principal {
+    color:blue;
+}
+
+h1{
+    color:red;
+}
+
+p#dog{
+    color:green;
+}
+
+.cat{
+    color:red;
+}

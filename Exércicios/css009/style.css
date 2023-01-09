@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+
+}
+
+div{
+    border: 1px solid red;
+    background-color: lightyellow;
+    font: normal bolder 20px Arial, Helvetica, sans-serif;
+    color:darkorange;
+    width:300px;
+    height:300px;
+    text-align: center;
+    margin: auto;
+}
+
+
+div > p{
+    display:none;
+}
+
+div:hover > p {
+    display: block; 
+    color: green;
+}
+
+div:hover{
+    background-color:red;
+}

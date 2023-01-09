@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color:deeppink;
+}
+
+a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: yellow;
+}
+
+a::after{
+    content: ' [ link ]';
+    color: blue;
+}
+
+a::before {
+    content: ' [ link ] ';
+    color: blue;
+}
