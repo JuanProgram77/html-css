@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Centralização</title>
 
     <style>
-        
+        #container{
+            position: relative;
+            background: yellow url('imagens/target001.png') center center no-repeat fixed;
+            background-size: contain;
+            height:96vh;
+            padding:5px;
+        }
+
+        #conteúdo{
+            position:absolute;
+            background-color:black;
+            width: 400px;
+            height: 200px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
     </style>
 </head>
 <body>
