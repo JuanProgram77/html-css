@@ -38,7 +38,7 @@ main{
 section#zero{
     background: green url('imagens/zero.jpg') center center no-repeat fixed;
     background-size:cover;
-    height:30vh;
+    height:50vh;
     padding:10px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -47,7 +47,7 @@ section#zero{
 section#asta{
     background: green url('imagens/asta.jpg') center center no-repeat fixed;
     background-size:cover;
-    height:30vh;
+    height:50vh;
     padding:10px;
     margin-bottom: 20px;
     margin-top: 20px;
