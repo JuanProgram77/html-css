@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#343E3D;
+    --cor1:#61806D;
+    --cor3:#AEDCC0;
+    --cor4:#7BD389;
+    --cor5:#38E4AE;
+}
+
+*{
+    margin:0px
+}
+
+body{
+    font: normal normal 16px Arial, serif;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor3));
+    line-height: 2em;
+}
+
+header{
+    background-color:var(--cor0);
+    padding:70px;
+}
+
+h1{
+    text-align:center;
+    color:white;
+}
+
+main{
+    background-color: white;
+    max-width:1000px;
+    min-width:400px;
+    margin: auto;
+}
+
+section#zero{
+    background: green url('imagens/zero.jpg') center center no-repeat fixed;
+    background-size:cover;
+    height:30vh;
+    padding:10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section#asta{
+    background: green url('imagens/asta.jpg') center center no-repeat fixed;
+    background-size:cover;
+    height:30vh;
+    padding:10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2{
+    background-image:linear-gradient(to right, var(--cor5), var(--cor4), transparent);
+    padding:5px 0px 10px 15px;
+    margin-bottom:15px;
+}
+
+p{
+    text-indent: 30px;
+    text-align:justify;
+    padding: 5px 10px 5px 10px
+}
+
+div#credits{
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 10px;
+    max-width:400px;
+    min-width: 300px;
+    margin:auto;
+    padding-bottom: 10px;
+    color:white;
+}
+
+h3{
+    padding: 10px 0px 10px 10px;
+}
+
+p.creditos{
+    text-indent:0px;
+}
+
+p > a{
+    color:white;
+}
+
+footer{
+    margin-top: 15px;
+    background-color: var(--cor3);
+}
+
+p#rodape{
+    text-indent:0px;
+    text-align:center;
+    font-size: 14px;
+}
