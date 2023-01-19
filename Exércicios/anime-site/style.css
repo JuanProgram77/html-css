@@ -36,12 +36,13 @@ main{
 }
 
 section#zero{
-    background: green url('imagens/zero.jpg') center center no-repeat fixed;
+    background: rgb(0, 47, 255) url('imagens/zero.jpg') center center no-repeat fixed;
     background-size:cover;
     height:50vh;
     padding:10px;
     margin-bottom: 20px;
     margin-top: 20px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.377);
 }
 
 section#asta{
@@ -51,6 +52,7 @@ section#asta{
     padding:10px;
     margin-bottom: 20px;
     margin-top: 20px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.589);
 }
 
 h2{
@@ -83,8 +85,9 @@ p.creditos{
     text-indent:0px;
 }
 
-p > a{
+div > p > a{
     color:white;
+    font-weight: bolder;
 }
 
 footer{
@@ -92,8 +95,19 @@ footer{
     background-color: var(--cor3);
 }
 
+footer > p > a{
+    text-decoration:none;
+    font-weight: bolder;
+    color:black;
+}
+
+footer > p > a:hover{
+    text-decoration:underline;
+}
+
 p#rodape{
     text-indent:0px;
     text-align:center;
     font-size: 14px;
 }
+
