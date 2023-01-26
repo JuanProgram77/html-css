@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root{
+    --cor00: rgba(255, 0, 0, 0.386) ;
+    --cor01: rgba(255, 0, 0, 0.458);
+    --cor02: rgba(255, 0, 0, 0.649);
+    --cor03: rgba(255, 0, 0, 0.748);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    text-align:center;
+}
+
+caption{
+    padding: 10px;
+    background-color: var(--cor00);
+    border-radius: 5px 5px 0px 0px;
+    font-weight:bolder;
+}
+
+td, th{
+    padding:10px;
+    border: 1px solid black;
+}
