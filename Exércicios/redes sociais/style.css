@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background: rgb(0, 0, 0) url(pacotes/fundo-madeira.jpg) center center no-repeat fixed;
+    background-size:cover;
+}
+
+img{
+    height:70vh;
+    position:absolute;
+    top:10%;
+    left:35%;
+}
+
+iframe{
+    position:absolute;
+    max-width:25%;
+    height:51vh;
+    top:19%;
+    left:37%;
+    zoom:105%;
+}
+
