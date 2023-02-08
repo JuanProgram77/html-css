@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+:root{
+    --cor01:blue;
+    --cor02:gray;
+}
+
+body{
+    font: normal normal 16px Arial, serif;
+    background-image:linear-gradient(to right, var(--cor01), var(--cor02));
+}
+
+p{
+    text-indent:20px;
+    line-height:2em;
+}
+
+header{
+    background-color: white;
+    text-align:center;
+    text-indent:0px;
+    padding:20px;
+}
+
+main{
+    background-color:white;
+    max-width:1100px;
+    margin:auto;
+    padding:15px;
+}
+
+main > p{
+    text-align:justify;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    padding:5px;
+}
+
