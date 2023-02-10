@@ -20,11 +20,20 @@ p{
     line-height:2em;
 }
 
+h2{
+    padding:0px 0px 13px 16px;
+}
+
 header{
-    background-color: white;
+    background: var(--cor02) url('') no-repeat center center fixed;
+    background-size:cover;
     text-align:center;
     text-indent:0px;
-    padding:20px;
+    padding:35px;
+}
+
+header > p{
+    line-height: 50px;
 }
 
 main{
@@ -38,9 +47,30 @@ main > p{
     text-align:justify;
 }
 
+section.responsividadedovideo > iframe{
+    position:absolute;
+    top:7%;
+    left:13%;
+    width:73%;
+    height:80%;
+}
+
+.responsividadedovideo{
+    position:relative;
+    padding:5px 5px 0px 5px;
+    padding-bottom:50%;
+}
+
 footer{
     background-color:black;
     color:white;
     padding:5px;
+}
+
+footer > p#rodape{
+    text-indent:0px;
+    text-align:left;
+    font-size:10px;
+    text-align:center;
 }
 
