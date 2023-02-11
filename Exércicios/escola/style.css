@@ -1,18 +1,37 @@
 @charset "UTF-8";
 
+@font-face{
+    font-family:'mono';
+    font-weight:normal;
+    font-style:normal;
+    src: url('fontes/mono.ttf') format('truetype');
+}
+
+@font-face{
+    font-family:'rale';
+    font-weight:normal;
+    font-style:normal;
+    src: url('fontes/rale2.ttf') format('truetype');
+}
+
+
 *{
     margin:0px;
     padding:0px;
 }
 
 :root{
-    --cor01:blue;
-    --cor02:gray;
+    --cor01:rgb(228, 227, 229);
+    --cor02:rgb(133, 114, 164);
+    --cor03:rgb(29, 6, 67);
+    --cor04:rgba(89, 38, 177, 0.732);
+    --font-cabeça:'mono', Arial, serif;
+    --font-text: 'rale', Arial, serif;
 }
 
 body{
-    font: normal normal 16px Arial, serif;
-    background-image:linear-gradient(to right, var(--cor01), var(--cor02));
+    font: normal normal 16px var(--font-text);
+    background-color:var(--cor04)
 }
 
 p{
@@ -20,20 +39,35 @@ p{
     line-height:2em;
 }
 
+h1, h2{
+    font-family: var(--font-cabeça);
+}
+
+h1{
+    font-size:35px;
+    padding-bottom:10px;
+}
+
 h2{
-    padding:0px 0px 13px 16px;
+    padding:16px 0px 15px 16px;
+    font-size:30px;
+    background-image:linear-gradient(to right, var(--cor02) 5%, var(--cor01), transparent 55%);
+    margin-left:-15px;
+    margin-bottom:13px;
 }
 
 header{
-    background: var(--cor02) url('') no-repeat center center fixed;
-    background-size:cover;
+    background-color:var(--cor03);
     text-align:center;
     text-indent:0px;
-    padding:35px;
+    padding:40px;
+    color:white;
+    padding-bottom:60px;
 }
 
 header > p{
-    line-height: 50px;
+    line-height: 25px;
+    font-family: var(--font-cabeça);
 }
 
 main{
@@ -41,6 +75,7 @@ main{
     max-width:1100px;
     margin:auto;
     padding:15px;
+    border-radius:0px 10px 10px 0px;
 }
 
 main > p{
@@ -53,6 +88,7 @@ section.responsividadedovideo > iframe{
     left:13%;
     width:73%;
     height:80%;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.145);
 }
 
 .responsividadedovideo{
@@ -62,7 +98,7 @@ section.responsividadedovideo > iframe{
 }
 
 footer{
-    background-color:black;
+    background-color:var(--cor03);
     color:white;
     padding:5px;
 }
@@ -70,7 +106,8 @@ footer{
 footer > p#rodape{
     text-indent:0px;
     text-align:left;
-    font-size:10px;
+    font-size:50%;
     text-align:center;
+    width:100%;
 }
 
